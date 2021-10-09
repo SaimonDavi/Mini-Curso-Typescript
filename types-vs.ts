@@ -13,7 +13,7 @@ type DLCT = {
 type GameCollectionT = Game & DLCT;
 
 // Implements
-class CreatGameT implements GameCollectionT{};
+//class CreatGameT implements GameCollectionT{};
 
 // Declarar Função
 type getSimilarsT = (title: string) => void;
@@ -29,8 +29,8 @@ type TupleT = [number, number];
 [1, 2] as TupleT;
 
 // Apenas uma declaração por escopo
-type JQueryT = { a: string };
-type JQueryT = { b: string };
+//type JQueryT = { a: string };
+//type JQueryT = { b: string };
 
 // Mais recomendado na maioria das vezes
 // Utilizando React - Props
